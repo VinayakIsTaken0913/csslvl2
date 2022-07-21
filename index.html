@@ -1,13 +1,51 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html><head>
   <title>Css libary Lvl.2</title>
-
+  <style>
+    #navigation {
+           display:flex;
+           flex-wrap:wrap;
+           background-color:#00FF9E;
+           font-family:arial;
+      }
+      #navigation > div {
+           background-color:cyan;
+           width:200px;
+           height:50px;
+           
+      }
+      #navigation > div > button {
+          width:200px;
+          height:50px;
+          border:2px solid black;
+      }
+      #navigation > div > button:hover {
+          width:200px;
+          height:50px;
+          border:3px solid black;
+      }
+      #thispage {
+          background-color:#BFFFE7;
+      }
+      .otherpages {
+          background-color:#00FFB9;
+      }
+      .cyandiv {
+          background-color:cyan;
+      }
+    .greendiv {
+          background-color:green;
+    }
+  </style>
   
   
   
 </head>
-<body>
-  
-</body>
-</html>
+<body style="background-color:black">
+  <div id="header" style="background-image:linear-gradient(270deg,green,cyan);font-family:arial;">
+    <h1>CSS libary</h1>
+    <p>Lvl 2 of css libary by Vinayak Nautiyal</p>
+  </div>
+  <nav id="navigation"><div><button class="otherpages">Lvl.1</button></div><div><button id="thispage">Lvl.2</button></div><div><button class="otherpages">Lvl.3</button></div><div><button class="otherpages">Lvl.4</button></div><div><button class="otherpages">Lvl.5</button></div></nav>
+<div class="cyandiv" style="font-family:arial;"><p>NOTE: For beginners who know nothing about css and have not visited this website before, please go to Lvl.1 (click the button on the navigation bar).</p></div>
+<div class="greendiv" style="font-family:arial;"><h1>CSS animations</h1><p>We are going to learn how to make elements animate in css(gradually transform in a smooth way).It is really intresting.</p></div>
+</body></html>
