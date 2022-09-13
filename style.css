@@ -1,0 +1,75 @@
+#page{
+    	background-color: black;
+    }
+    #header{
+    	font-family: arial;
+    	background-image: linear-gradient(90deg,cyan,green);
+    }
+    #navig{
+    	display: flex;
+    	background-color: lightgreen;
+    	height: 60px;
+    }
+    .navbuttonholders{
+    	width: 20%;
+    	height: 100%;
+    }
+    .navbuttons{
+        width: 100%;
+        height: 100%;
+        background-color: #00FFB9;
+        border: 2px solid black;
+    }
+    #navbuttontwo{
+    	background-color: #BFFFE7;
+    }
+    .navbuttons:hover{
+    	border:3px solid black;
+    }
+    #note{
+    	background-color: cyan;
+    	font-family: arial;
+    }
+    #contents{
+    	background-color: green;
+    	font-family: arial;
+    }
+    #border{
+    	background-color: cyan;
+    	font-family: arial;
+    }
+    #algining{
+    	background-color: green;
+    	font-family: arial;
+    }
+    #basictransform{
+    	background-color: cyan;
+    	font-family: arial;
+    }
+    #animations{
+    	background-color: green;
+    	font-family: arial;
+    }
+    #footer{
+    	background-color: cyan;
+    	font-family: arial;
+    }
+    p{
+        font-size: 120%;
+    }
+    .descriptions{
+        font-size: 80%;
+    }
+    #footerlink:active{
+        color: lightblue;
+    }
+    .smalltext{
+        font-size: 80%;
+    }
+    #contentslist{
+        font-size: 120%;
+    }
+    #footerlinktwo{
+        color: purple;
+        text-decoration: underline;
+    }
